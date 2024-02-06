@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Surbhi</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>  
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-university nav__icon"></i> Qualification
+                            </a>
+                        </li>                      
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Projects
+                            </a>
+                        </li>                        
+                        <li class="nav__item">
+                            <a href="#achievements" class="nav__link">
+                                <i class="uil uil-award nav__icon"></i> Achievements
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!--Theme change buttons-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/surbhi-bhor/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/surbhi-bhor" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/Headshot.png"/>
+                                </g>
+                            </svg>                            
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I am Surbhi Bhor</h1>
+                            <h3 class="home__subtitle">Data Enthusiast</h3>
+                            <p class="home__description">An avid data professional, currently pursuing a Master's in Information Management at the University of Illinois. 
+                                With a background in Electronics engineering, my passion lies in transforming raw data into actionable insights. 
+                                I've gained valuable experience as a Data Engineer Intern at Boston Consulting Group (BCG) and as an Automation Engineer at Capgemini in India. 
+                            </p>
+                            <p><strong><i> Actively seeking full-time opportunities in Data Engineering & Analytics starting June 2024.</i></strong></p><br>
+
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/Headshot2.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            During my tenure as a Data Engineer Intern at Boston Consulting Group (BCG), I refined my expertise in crafting Azure Synapse data pipelines and 
+                            engineered efficient batch data pipelines for ingestion and curation. As an Automation Engineer at Capgemini, my focus was on automating 
+                            APIs using the AWS framework, employing JavaScript and Node.js. Armed with a robust foundation in programming languages, frameworks, and cloud platforms, 
+                            I am well-equipped to navigate the ever-evolving realm of data, bringing forth a keen sense of innovation and effective problem-solving.
+
+                            Beyond my academic and professional pursuits, I have actively engaged in extracurricular activities. I served as the marketing head at the 
+                            IEEE student chapter and held key roles as both the dance head and a member of the university dance crew, achieving a remarkable winning streak in 
+                            national and intercollege competitions. 
+
+                        </p>
+                        <!-- <div class="about__info">
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Years <br> Experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Years <br> Experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">02</span>
+                                <span class="about__info-name">Companies <br> Worked</span>
+                            </div>
+                        </div> -->
+                        <div class="about__buttons">
+                            <a download="" href="https://drive.google.com/file/d/1I2-1SDloyEGQCagyXWryWs3O9420HGgF/view?usp=drive_link" target="_blank" class="button button--flex">
+                                Download Resume<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <!-- <section class="skills section" id="skills">
+            </section> -->
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualifiction__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Bachelor's in Electronics Engineering</h3>
+                                    <span class="qualification__subtitle">University of Mumbai, India</span>
+                                    <div class="qualification__container">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        August 2016 - October 2020
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                            </div>
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Master's in Information Management</h3>
+                                    <span class="qualification__subtitle">University of Illinois, Urbana Champaign</span>
+                                    <div class="qualification__container">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        August 2022 - May 2024
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Data Engineer Intern</h3>
+                                    <span class="qualification__subtitle">The Boston Consulting Group, New York</span>
+                                    <div class="qualification__container">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        June 2023 - August 2023
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                            </div>
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data"> 
+                                <div></div>
+                                
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Automation Engineer</h3>
+                                    <span class="qualification__subtitle">Capgemini, India</span>
+                                    <div class="qualification__container">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        September 2020 - June 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section" id="experience">
+                <h2 class="section__title">Experience</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="experience__container container grid">
+                    <!--==================== EXPERIENCE 1 ====================-->
+                    <div class="experience__content">
+                        <div>
+                            <i class="uil uil-web-grid experience__icon"></i>
+                            <h3 class="experience__title">Data Engineer <br> Intern</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link experience__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="experience__modal">
+                            <div class="experience__modal-content">
+                                <h4 class="experience__modal-title">Data Engineer <br> Intern</h4>
+                                <i class="uil uil-times experience__modal-close"></i>   
+                                <ul class="experience__modal-experiences grid">
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Built Azure Synapse data pipelines to initiate ETL process for efficient initial and incremental data loads across data layers</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Transformed and curated over 25000 records into a staging Hive table using ADLS and data warehouse
+                                           resulting in a SCD1 delta table, reducing data discrepancies by 75%</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Implemented data quality validation with PySpark notebook, resulting in the identification 
+                                           and resolution of a critical bug, enhancing data integrity</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Built Azure Synapse data pipelines to initiate ETL process for efficient initial and incremental data loads across data layers</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Strategically assessed six ERD migration tools, seamlessly transitioning to the optimal solution, resulting in 
+                                            enhanced real-time collaboration and significant time-saving advantages</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Orchestrated comprehensive data modelling for a complex domain spanning 15 diverse tables, translating it into an effective ER diagram and further enhancing understanding 
+                                            through strategic creation of data flow diagrams for multiple pods</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== EXPERIENCE 2 ====================-->
+                    <div class="experience__content">
+                        <div>
+                            <i class="uil uil-arrow experience__icon"></i>
+                            <h3 class="experience__title">Automation <br> Engineer</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link experience__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="experience__modal">
+                            <div class="experience__modal-content">
+                                <h4 class="experience__modal-title">Automation <br> Engineer</h4>
+                                <i class="uil uil-times experience__modal-close"></i>   
+                                <ul class="experience__modal-experiences grid">
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Led the development and implementation of automated testing procedures through Jenkins, ensuring the seamless deployment of software releases for the backend of the application.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Directed and maintained a robust suite of automation test scripts utilizing an internal AWS framework comprising lambda, step function, and API gateway. 
+                                           Leveraged lambda functions and state machines to intricately chain together function calls, optimizing test case outcomes.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Integrated smoke, regression, and integration test suites into the Azure DevOps CI/CD pipeline using API gateway, enhancing the efficiency of the 
+                                           continuous integration and deployment processes.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p> Elevated test case coverage by 70% through the automation of critical AWS functionalities, including Cloudwatch logs and DynamoDB.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Developed and scripted over 200 API test cases for smoke, regression, and integration scenarios, contributing to the overall robustness of the testing framework.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Collaborated closely with the manual test team to analyze detailed test requirements, subsequently creating comprehensive test data sheets for automation.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Pioneered the creation of reusable actions within automated test scripts, facilitating streamlined adaptation to automation code changes across various microservices in response to evolving functionalities.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== EXPERIENCE 3 ====================-->
+                    <div class="experience__content">
+                        <div>
+                            <i class="uil uil-pen experience__icon"></i>
+                            <h3 class="experience__title">Quality Assurance <br> Analyst</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link experience__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="experience__modal">
+                            <div class="experience__modal-content">
+                                <h4 class="experience__modal-title">Quality Assurance Analyst</h4>
+                                <i class="uil uil-times experience__modal-close"></i>   
+                                <ul class="experience__modal-experiences grid">
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Spearheaded the analysis of change requirements, meticulously crafting test cases, and diligently tracking defects aligned with user stories for the backend of the application on Azure Devops Dashboard.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Orchestrated two pods for in-sprint and integration testing, adhering to test plans, and provided crucial support for User Acceptance Testing (UAT) to ensure flawless modules for program release.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Conducted thorough testing of application APIs using the Postman tool and AWS services like DynamoDB, Cloudwatch logs, S3 and UI Website of the application covering test cases on diverse application frameworks.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Successfully managed and mentored a team of 20+ members by consistently organizing Knowledge Training (KT) Sessions to enhance team members' expertise.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p>Actively engaged in Agile methodologies throughout the testing lifecycle, fostering adaptability and efficiency.</p>
+                                    </li>
+                                    <li class="experience__modal-experience">
+                                        <i class="uil uil-check-circle experience__modal-icon"></i>
+                                        <p> Demonstrated proficiency by completing a comprehensive six-month training program on MEAN stack, culminating in the development of a full-stack web application using the aforementioned technologies.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== PROJECT ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="projects__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECT 1 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/project1.jpeg" alt="" class="projects__img">
+                            <div class="projects__data">
+                                <h3 class="projects__title">Instacart Market Basket Analysis: Tableau, Python</h3>
+                                <p class="projects__description">Applied dimensional modeling techniques, including 
+                                    star schema-based data models, ER diagram and designed a Tableau dashboard to 
+                                    analyze customer behavior and product performance, providing valuable insights.
+                                    Conducted exploratory data analysis using Python libraries such as NumPy 
+                                    and Pandas, leveraging seaborn and matplotlib for visualizations
+                                </p>
+
+                                <a href="https://github.com/surbhi-bhor/instacart-market-basket-analysis" target="_blank" class="button button--flex button--small projects__button">
+                                    Link
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECT 2 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/project2.jpeg" alt="" class="projects__img">
+                            <div class="projects__data">
+                                <h3 class="projects__title">Crimes against women: SQL, PowerBI</h3>
+                                <p class="projects__description">Populated crimes against women database with over 10,000 
+                                    rows and 11 columns ensuring ACID properties to maintain integrity and consistency of 
+                                    data using SQL, which reduced data discrepancy by 11%. Created an interactive dashboard
+                                    in PowerBI to examine historical crime trends and demonstrated how crimes against 
+                                    women increased exponentially from 2001 to 2014, in which approximately 5M crimes 
+                                    were reported.                                    
+                                </p>
+
+                                <a href="https://github.com/surbhi-bhor/crimes-against-women" target="_blank" class="button button--flex button--small projects__button">
+                                    Link
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECT 3 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/project3.jpeg" alt="" class="projects__img">
+                            <div class="projects__data">
+                                <h3 class="projects__title">Flight Booking System: MEAN Stack </h3>
+                                <p class="projects__description">Developed a dynamic full-stack application with Node.js, Express.js, and Angular, featuring micro-services, 
+                                    JWT authentication, Razorpay for payments, nodemailer for emails, and Swagger Hub for API documentation. Ensured reliability through Mocha 
+                                    & Chai testing and deployed on AWS using lambda functions and S3. Efficiently migrated the database from MongoDB to DynamoDB using DMS-Database 
+                                    Migration Service.                                    
+                                </p>
+
+                                <a href="https://github.com/surbhi-bhor/flight-booking-system-mean-stack" target="_blank" class="button button--flex button--small projects__button">
+                                    Link
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECT 4 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/project4.jpeg" alt="" class="projects__img">
+                            <div class="projects__data">
+                                <h3 class="projects__title">Mapping Storm event: NOAA Dataset Visualization </h3>
+                                <p class="projects__description">Implemented real-time dataset updates through Beautiful Soup web scraping for generating visualizations that 
+                                    address pivotal research questions and provide data-driven insights into storm events across the United States. Additionally, crafted 
+                                    interactive visualizations using Altair, Matplotlib, and Vega-Lite. This involved developing high-quality charts and graphs, as well 
+                                    as dynamically manipulating data to enhance the overall effectiveness and interactivity of the visual representation.                                    
+                                </p>
+
+                                <a href="https://github.com/surbhi-bhor/MappingStormEventNOAA-dataset-visualization" target="_blank" class="button button--flex button--small projects__button">
+                                    Link
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PROJECT 5 ====================-->
+                        <div class="projects__content grid swiper-slide">
+                            <img src="assets/img/project5.jpeg" alt="" class="projects__img">
+                            <div class="projects__data">
+                                <h3 class="projects__title">UNICEF Malnutrition Dataset analysis & Visualization </h3>
+                                <p class="projects__description">Leveraged malnutrition data sourced from UNICEF, inclusive of data spanning all countries and UN regions. 
+                                    Exploratory Data Analysis (EDA) and precise data cleaning techniques using Pandas were employed to prepare the dataset for more effective 
+                                    visualization. Developed insightful visualizations by harnessing the capabilities of the Plotly library that addressed critical inquiries 
+                                    surrounding malnutrition factors, including stunting, wasting, underweight, and overweight.                                    
+                                </p>
+
+                                <a href="https://github.com/surbhi-bhor/unicef-malnutrition-data-visualization" target="_blank" class="button button--flex button--small projects__button">
+                                    Link
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Add arrow-->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-projects-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-projects-icon"></i>
+                    </div>
+
+                    <!--Add pagination-->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <!-- <section class="project section">
+            </section> -->
+
+            <!--==================== ACHIEVEMENT ====================-->
+            <section class="achievements section" id="achievements">
+                <h2 class="section__title">Leadership, Impact, and Milestones</h2>
+                <span class="section__subtitle">Making a difference</span>
+
+                <div class="achievements__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== ACHIEVEMENT 1 ====================-->
+                        <div class="achievements__content swiper-slide">
+                            <div class="achievements__data">
+                                <div class="achievements__header">
+                                    <!-- <img src="assets/img/testimonial1.jpg" alt="" class="achievements__img"> -->
+                                    <div class="achievements__name">Extracurricular Leadership and Achievements</div>
+                                    <span class="achievements__detail"></span>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-award achievements__icon"></i>
+                                    <i class="uil uil-award achievements__icon"></i>
+                                    <i class="uil uil-award achievements__icon"></i>
+                                    <i class="uil uil-award achievements__icon"></i>
+                                    <i class="uil uil-award achievements__icon"></i>
+                                </div>
+                            </div>
+
+                            <ul class="achievements__description">
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Led college dance crew to numerous victories, securing 18 out of 
+                                       24 competition wins and achieving 3-time runner-up status at the national level 
+                                       competitions.
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Demonstrated exceptional leadership as the Marketing Head for IEEE 
+                                        in 2018-19, and actively contributed as a member, organizer, and event head from 2016 
+                                        to 2019.
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Elevated online presence by increasing followers by 36% as a Social 
+                                        Media Coordinator and Content Writer for both Footloose Dance Crew and IEEE.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--==================== ACHIEVEMENT 2 ====================-->
+                        <div class="achievements__content swiper-slide">
+                            <div class="achievements__data">
+                                <div class="achievements__header">
+                                    <!-- <img src="assets/img/testimonial1.jpg" alt="" class="achievements__img"> -->
+                                    <div class="achievements__name">Social Work and Volunteer Experience</div>
+                                    <span class="achievements__detail"></span>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-heart-medical achievements__icon"></i>
+                                    <i class="uil uil-heart-medical achievements__icon"></i>
+                                    <i class="uil uil-heart-medical achievements__icon"></i>
+                                    <i class="uil uil-heart-medical achievements__icon"></i>
+                                    <i class="uil uil-heart-medical achievements__icon"></i>
+                                </div>
+                            </div>
+
+                            <ul class="achievements__description">
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Contributed to social welfare as a dedicated volunteer at 'Adoptathon 2019' 
+                                        organized by World for All Animal Care and Adoptions.
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Actively participated in the social wing of the student chapter, engaging in various 
+                                        initiatives that made a positive impact on the local community.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--==================== ACHIEVEMENT 3 ====================-->
+                        <div class="achievements__content swiper-slide">
+                            <div class="achievements__data">
+                                <div class="achievements__header">
+                                    <!-- <img src="assets/img/testimonial1.jpg" alt="" class="achievements__img"> -->
+                                    <div class="achievements__name">Professional Achievements</div>
+                                    <span class="achievements__detail"></span>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-bag achievements__icon"></i>
+                                    <i class="uil uil-bag achievements__icon"></i>
+                                    <i class="uil uil-bag achievements__icon"></i>
+                                    <i class="uil uil-bag achievements__icon"></i>
+                                    <i class="uil uil-bag achievements__icon"></i>
+                                </div>
+                            </div>
+
+                            <ul class="achievements__description">
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Received the "Pat on the Back" award during monthly Recognition 
+                                        and Rewards (RnR) for consistent delivery of high-quality work and dedication 
+                                        to excellence.
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Awarded for innovation and proactive initiatives within the team, contributing 
+                                        significantly to the automation process under the Kaizen framework
+                                    </p>
+                                </li>
+                                <li>
+                                    <i class="uil uil-check"></i>
+                                    <p>Successfully spearheaded the quality assurance (QA) efforts for two domains independently, 
+                                        showcasing meticulous attention to detail, analytical skills, and a commitment to ensuring 
+                                        top-notch standards in all projects undertaken.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>                        
+                    </div>
+                    <!-- Add Pagination-->
+                    <div class="swiper-pagination swiper-pagination-achievements"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <a href="mailto:surbhi.bhor@gmail.com" class="uil uil-envelope contact__icon"></a>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <a href="mailto:surbhi.bhor@gmail.com" class="contact__subtitle">surbhi.bhor@gmail.com</a>
+                            </div>                            
+                        </div>
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Chicago - IL, USA</span>
+                            </div>
+                        </div>
+                        <div class="contact__information">
+                            <a href="https://www.linkedin.com/in/surbhi-bhor/" target="_blank" class="uil uil-linkedin-alt contact__icon"></a>
+                            <div>
+                                <h3 class="contact__title">LinkedIn</h3>
+                                <a  href="https://www.linkedin.com/in/surbhi-bhor/" target="_blank" class="contact__subtitle">linkedin.com/in/surbhi-bhor/</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Surbhi Dilip Bhor</h1>
+                        <span class="footer__subtitle">Data engineering and analytics enthusiast!</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#experience" class="footer__link">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact me</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__social">
+                        <a href="https://www.linkedin.com/in/surbhi-bhor/" target="_blank" class="footer__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/surbhi-bhor" target="_blank" class="footer__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; Surbhi. All rights reserved</p>
+            </div>
+         
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
