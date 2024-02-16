@@ -899,6 +899,12 @@ img {
     padding: 0 .5rem;
   }
 
+  .experience__modal-content {
+    max-height: 80vh; /* You can adjust this value based on your design */
+    overflow-y: auto;
+    width: 100%;
+  }
+
   .achievements__data,
   .achievements__header{
     flex-direction: column;
