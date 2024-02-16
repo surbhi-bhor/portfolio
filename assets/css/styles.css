@@ -857,7 +857,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width:350px) {
+@media screen and (max-width:530px) {
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -900,7 +900,7 @@ img {
   }
 
   .experience__modal-content {
-    max-height: 80vh; /* You can adjust this value based on your design */
+    max-height: 80vh; 
     overflow-y: auto;
     width: 100%;
   }
