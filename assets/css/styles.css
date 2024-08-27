@@ -296,7 +296,7 @@ img {
 }
 
 .home__blob-img{
-  width: 170px;
+  width: 290px;
 }
 
 .home__data{
@@ -1035,7 +1035,8 @@ img {
   }
 
   .about__description{
-    text-align: initial;
+    /* text-align: initial; */
+    text-align: justify;    
   }
 
   .about__info{
